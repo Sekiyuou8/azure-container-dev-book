@@ -18,9 +18,11 @@
 ```
 
 ## 2. ハンズオンの実施方法
-ハンズオンの詳細な手順については、書籍を参照してください。なお書籍中のコマンドは[こちら](README.azcli)にまとめています。
+ハンズオンの詳細な手順については、書籍を参照してください。
+なお書籍中のコマンドは[こちら](README.azcli)にまとめています。
 
-Visual Studio CodeをDevcontainerで開き、[README.azcli](README.azcli) ファイルを開きます。実行したいコマンドを選択した状態で`[Ctrl]` + `[^]`を押下すると、ターミナルに自動でコマンドを入力できます。
+Visual Studio CodeをDevcontainerで開き、[README.azcli](README.azcli) ファイルを開きます。
+実行したいコマンドを選択した状態で`[Ctrl]` + `[^]`を押下すると、ターミナルに自動でコマンドを入力できます。
 
 ![azurecli](azurecli.png)
 

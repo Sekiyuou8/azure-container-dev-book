@@ -46,4 +46,11 @@ public class HelloWorldConfigurationTests {
 		assertEquals("Hello Docker World", entity.getBody());
 	}
 
+	@Test
+	public void testGreetinghey() throws Exception {
+		ResponseEntity<String> entity = restTemplate
+				.getForEntity("http://localhost:" + this.port + "/hey", String.class);
+		assertEquals("Hey yo", entity.getBody());
+	}
+
 }
